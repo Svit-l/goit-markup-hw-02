@@ -91,6 +91,9 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  color: var(--accent-color);
+}
 /*---------HERO-------*/
 .hero-title {
   font-weight: 900;
