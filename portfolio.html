@@ -7,6 +7,8 @@
     <meta name="description" content="GoIT-training. Homework 2. Page 2 of 2">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -17,23 +19,23 @@
 
 <body>
     <header class="top-header">
-        <div>
+        <div class="block-nav">
             <nav class="main-nav">
-                <a class="logo" href="./"><span class="blue-text-logo">Web</span>Studio</a>
-                <ul>
-                    <li>
-                        <a href="./index.html">Студия</a>
+                <a class="logo link" href="./"><span class="blue-text-logo">Web</span>Studio</a>
+                <ul class="menu list">
+                    <li class="menu-item">
+                        <a class="menu-link link" href="./">Студия</a>
                     </li>
-                    <li>
-                        <a href="./portfolio.html">Портфолио</a>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="./portfolio.html">Портфолио</a>
                     </li>
-                    <li>
-                        <a href="">Контакты</a>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:++380961111111">+38 096 111 11 11</a>
+            <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="header-tel link" href="tel:++380961111111">+38 096 111 11 11</a>
         </div>
     </header>
     <main>
@@ -41,7 +43,7 @@
         <section>
             <h2 hidden>Секции страницы портфолио</h2>
             <!--Buttons-->
-            <ul>
+            <ul class="list">
                 <li><button type="button">Все</button></li>
                 <li><button type="button">Веб-сайты</button></li>
                 <li><button type="button">Приложения</button></li>
@@ -50,16 +52,16 @@
             </ul>
         </section>
         <!--Work examples-->
-        <ul>
+        <ul class="list">
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./img/portfolio/technocryak-min.jpg" alt="Представление веб-сайта Технокряк" width="370">
                 </a>
                 <h3>Технокряк</h3>
                 <p>Веб-сайт</p>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./img/portfolio/poster-new-orl-min.jpg"
                         alt="Представление дизайна постера New Orlean vs Golden Star" width="370">
                 </a>
@@ -67,7 +69,7 @@
                 <p>Дизайн</p>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./img/portfolio/seafood-min.jpg" alt="Представление приложения Ресторан Seafood"
                         width="370">
                 </a>
@@ -75,21 +77,21 @@
                 <p>Приложение</p>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./img/portfolio/prime-min.jpg" alt="Представление проект Prime" width="370">
                 </a>
                 <h3>Проект Prime</h3>
                 <p>Маркетинг</p>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./img/portfolio/boxes-min.jpg" alt="Представление приложения Проект Boxes" width="370">
                 </a>
                 <h3>Проект Boxes</h3>
                 <p>Приложение</p>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./img/portfolio/inspiration-min.jpg"
                         alt="Представление веб-сайта Inspiration has no Borders" width="370">
                 </a>
@@ -97,7 +99,7 @@
                 <p>Веб-сайт</p>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./img/portfolio/limited-min.jpg" alt="Представление дизайна издания Limited Edition"
                         width="370">
                 </a>
@@ -105,14 +107,14 @@
                 <p>Дизайн</p>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./img/portfolio/lab-min.jpg" alt="Представление проекта LAB" width="370">
                 </a>
                 <h3>Проект LAB</h3>
                 <p>Маркетинг</p>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./img/portfolio/growing-business-min.jpg" alt="Представление приложения Growing Business"
                         width="370">
                 </a>
@@ -122,19 +124,24 @@
         </ul>
         </section>
     </main>
-    <footer>
-        <a href="./"><span class="blue-text-logo">Web</span>Studio</a>
-        <address>
-            <ul>
-                <li>
-                    <a href="https://goo.gl/maps/eU8yyStRN8f8yWrFA" target="blank" rel="noopener noreferrer">
-                        г. Киев, пр-т Леси Украинки, 26</a>
+    <footer class="footer">
+        <a class="white-text-logo link" href="./"><span class="blue-text-logo">Web</span>Studio</a>
+        <address class="address">
+            <ul class="address-list list">
+                <li class="address-list-item">
+                    <a class="address-location link" href="https://goo.gl/maps/eU8yyStRN8f8yWrFA" target="blank"
+                        rel="noopener noreferrer">
+                        г. Киев,
+                        пр-т
+                        Леси
+                        Украинки, 26
+                    </a>
                 </li>
-                <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <li class="address-list-item">
+                    <a class="info-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a href="tel:++380961111111">+38 096 111 11 11</a>
+                <li class="address-list-item">
+                    <a class="info-link link" href="tel:++380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>
