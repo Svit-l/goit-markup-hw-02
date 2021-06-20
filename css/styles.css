@@ -1,14 +1,15 @@
 :root {
   --color: #212121;
   --accent-color: #2196f3;
+  --small-text-color: #757575;
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --background: #ffffff;
+  --background-color: #ffffff;
 }
 
 body {
   font-family: var(--main-font);
-  background: var(--background);
+  background: var(--background-color);
   color: var(--color);
 }
 
@@ -56,7 +57,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--color);
 }
 
 .menu-link:hover,
@@ -69,7 +70,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--small-text-color);
 }
 
 .header-tel {
@@ -77,7 +78,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--small-text-color);
 }
 
 .header-tel:hover,
@@ -107,7 +108,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .modal-btn {
@@ -119,7 +120,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--background-color);
   cursor: pointer;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -145,7 +146,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--small-text-color);
 }
 /*-----------Activity---------*/
 .activity-title {
@@ -183,7 +184,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--small-text-color);
 }
 
 /*---------FOOTER-------*/
@@ -196,7 +197,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .address {
@@ -207,7 +208,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .info-link {
@@ -242,7 +243,7 @@ body {
 }
 
 .portfolio-btn.current {
-  color: #ffffff;
+  color: var(--background-color);
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -250,7 +251,7 @@ body {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: #ffffff;
+  color: var(--background-color);
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -267,5 +268,5 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--small-text-color);
 }
