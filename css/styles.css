@@ -2,9 +2,9 @@
   --color: #212121;
   --accent-color: #2196f3;
   --small-text-color: #757575;
+  --background-color: #ffffff;
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --background-color: #ffffff;
 }
 
 body {
